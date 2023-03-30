@@ -1,0 +1,6 @@
+The mmap() function is a system call in Unix and Unix-like operating systems that allows a process to map a portion of its virtual address space
+to a file or a device. This function can be used for various purposes, such as memory-mapped I/O, inter-process communication, and loading executable 
+code from shared libraries. By mapping a portion of a file or device to memory, the process can directly access its contents as if they were in memory,
+without the need for additional I/O operations. The mmap() function returns a pointer to the mapped area in memory, which can be used by the process to 
+read from or write to the file or device. The function takes several arguments, including the starting address of the mapping, the length of the mapping, 
+the protection flags, and the file descriptor or device to be mapped.
