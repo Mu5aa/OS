@@ -48,9 +48,9 @@ Answers:
 
 Outline:       
 
-                For this assignment we created a shell program with rm, cat, clear and cowsay functionalities, along with the option of 
-                piping. We also have a separate C code that implements fork(), wait(), exec(), kill() and execv() functions, and a 
-                separate code implementing forkbomb.
+                For this assignment we created a shell program with rm, cat, clear and cowsay functionalities, along with the option 
+                of  piping. We also have a separate C code that implements fork(), wait(), exec(), kill() and execv() functions, and 
+                a separate code implementing forkbomb.
                 All the tasks that were required for this assignment are written in their separate C files, while shell.c file only 
                 contains either the advanced or basic version of each functionality.
 
