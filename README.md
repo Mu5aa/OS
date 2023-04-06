@@ -6,8 +6,10 @@ Members:
           Zehra Grbovic
 
 Files:     
-
+                    
+          shell.c
           task1Basic.c
+          task1Advanced.c
           task2BasicCAT.c 
           task2BasicCLEAR.c 
           task2BasicCOWSAY.c 
@@ -16,6 +18,7 @@ Files:
           task2IntermediateCOWSAY.c 
           task3Basic.c 
           task3Intermediate.c 
+          task3Advanced.c
           task4.c 
           
 Answers:  
