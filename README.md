@@ -49,30 +49,30 @@ Answers:
 
 Outline:       
 
-                For this assignment we created a shell program with rm, cat, clear and cowsay functionalities, along with the option 
-                of  piping. We also have a separate C code that implements fork(), wait(), exec(), kill() and execv() functions, and 
-                a separate code implementing forkbomb.
-                All the tasks that were required for this assignment are written in their separate C files, while shell.c file only 
-                contains either the advanced or basic version of each functionality.
+          For this assignment we created a shell program with rm, cat, clear and cowsay functionalities, along with the option 
+          of  piping. We also have a separate C code that implements fork(), wait(), exec(), kill() and execv() functions, and 
+          a separate code implementing forkbomb.
+          All the tasks that were required for this assignment are written in their separate C files, while shell.c file only 
+          contains either the advanced or basic version of each functionality.
 
 Instructions:   
 
-                Firstly we need to save the shell.c file on a desired location. After opening terminal and changing directory to the
-                location where the file is stored, we can compile it using the following command:
+          Firstly we need to save the shell.c file on a desired location. After opening terminal and changing directory to the
+          location where the file is stored, we can compile it using the following command:
                 gcc -Wall -o shell shell.c 
-                After the program is compiled, we can run it using the command:
+          After the program is compiled, we can run it using the command:
                 ./shell
                 
-                The same process applies for any other file.
+          The same process applies for any other file.
 
 Challenges:     
 
-                We faced a challenge while implementing the cowsay functionality. We are still not certain if it does what it's
-                supposed to, but we assume this is the right code.
+          We faced a challenge while implementing the cowsay functionality. We are still not certain if it does what it's
+          supposed to, but we assume this is the right code.
 
 Sources:        
                 
-                ChatGPT
-                man-pages
-                geeksforgeeks.org
+          ChatGPT
+          man-pages
+          geeksforgeeks.org
 
