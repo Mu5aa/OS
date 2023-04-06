@@ -38,14 +38,14 @@ Answers:
                 Context switches are necessary for multitasking, where multiple processes are running concurrently on a single CPU. 
                 Without context switches, the CPU would be monopolized by a single process, and other processes would not be able to 
                 execute until the running process completes.
-                Ideally, we want the OS to perform as few context switches as possible. This is because context switches are relatively 
-                expensive operations that consume CPU cycles and memory bandwidth. The more frequently the OS performs context switches, 
-                the less CPU time each process receives and the less  efficient the system becomes. Moreover, frequent context switches 
-                can lead to cache thrashing and contention for shared resources, which can further degrade performance.
-                However, we also want to avoid situations where a single process monopolizes the CPU for an extended period, preventing 
-                other processes from executing. 
-                This can lead to poor responsiveness and slow down the overall system performance. Therefore, a balance must be struck 
-                between maximizing CPU utilization and minimizing context switches to achieve optimal system performance
+                Ideally, we want the OS to perform as few context switches as possible. This is because context switches are 
+                relatively expensive operations that consume CPU cycles and memory bandwidth. The more frequently the OS performs 
+                context switches, the less CPU time each process receives and the less  efficient the system becomes. Moreover, 
+                frequent context switches can lead to cache thrashing and contention for shared resources, which can further degrade 
+                performance. However, we also want to avoid situations where a single process monopolizes the CPU for an extended 
+                period, preventing other processes from executing. This can lead to poor responsiveness and slow down the overall 
+                system performance. Therefore, a balance must be struck between maximizing CPU utilization and minimizing context 
+                switches to achieve optimal system performance
 
 Outline:       
 
@@ -55,13 +55,21 @@ Outline:
                 All the tasks that were required for this assignment are written in their separate C files, while shell.c file only 
                 contains either the advanced or basic version of each functionality.
 
-Instructions:   tbd
+Instructions:   
 
-Challenges:     tbd
+                Firstly we need to save the shell.c file on a desired location. After opening terminal and changing directory to the
+                location where the file is stored, we can compile it using the following command:
+                gcc -Wall -o shell shell.c 
+                After the program is compiled, we can run it using the command:
+                ./shell
+
+Challenges:     
+
+                We faced a challenge while implementing the cowsay functionality. We are still not certain if it does what it's
+                supposed to, but we assume this is the right code.
 
 Sources:        
                 
                 ChatGPT
                 man-pages
 
-Problems:       tbd
