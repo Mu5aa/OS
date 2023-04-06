@@ -62,6 +62,8 @@ Instructions:
                 gcc -Wall -o shell shell.c 
                 After the program is compiled, we can run it using the command:
                 ./shell
+                
+                The same process applies for any other file.
 
 Challenges:     
 
