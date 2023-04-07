@@ -67,12 +67,14 @@ Instructions:
 
 Challenges:     
 
-          We faced a challenge while implementing the cowsay functionality. We are still not certain if it does what it's
-          supposed to, but we assume this is the right code.
+          We faced a challenge while implementing all the functions to shell.Starting from the colors, to getting the hostname,username,everything was 
+          a challenge. With googling, trying many things we finally have done it and we think thath we have implemented a very good shell code.
 
 Sources:        
-                
-          ChatGPT
+              
           man-pages
           geeksforgeeks.org
+          W3schools
+          Khan Academy
+          Stack Overflow
 
